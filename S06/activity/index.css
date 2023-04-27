@@ -1,0 +1,50 @@
+*{
+	font-family: Arial;
+}
+
+/* External Styling */
+#_1{
+	color: red;
+}
+
+#_2{
+	color: orange;
+}
+
+#_3{
+	color: yellow;
+}
+
+
+h1{
+	font-size: 55px;
+}
+
+#header2{
+	text-transform: uppercase;
+}
+
+.Languages{
+	background: mediumspringgreen;
+}
+
+li[type="text"]{
+	border: solid 1px;
+}
+
+img + ul {
+	list-style-type: none;
+}	
+
+section img{
+	height: 100px;
+	border-radius: 50px;
+}
+
+ul ~ p {
+	text-align: center;
+	}
+
+body > section > ul > li {
+	letter-spacing: 10px;
+}

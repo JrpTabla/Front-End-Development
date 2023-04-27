@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Attributes and links</title>
+</head>
+<body>
+
+	<h2 id="top">HTML Attributes</h2>
+
+	<!-- align="" -> changes alignment of the paragraph element -->
+	<!-- align value ->  center, right, left-->
+
+	<p align="center">
+		<em>Modifiers of element behaviors.</em>
+	</p>
+
+	<h2>HTML Images</h2>
+
+	<!-- &lt -> less than sign -->
+	<p align="center">
+		<em>
+			An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.
+		</em>
+	</p>
+
+	<!-- Adds an image using absolute links -->
+	<!-- 2 kinds of links -> absolute link and relate links -->
+	<a href="https://place-puppy.com/" target="_blank">
+		<img src="https://place-puppy.com/300x300">
+	</a>
+	
+
+	<!-- code -> used to define piece of computer code -->
+	<p><code>&lt;img src="https://place-puppy.com/300x300"&gt;</code></p>
+
+	<!-- Adds an image using relative link -->
+	<a href="https://zuitt.co" target="_blank">
+	<img src="./images/zuittlogo.png">
+	</a>
+
+	<p><code>&lt;img src="./images/zuittlogo.png"&gt;</code></p>
+
+	<p>Valid image extension are the following:</p>
+
+	<ol type="a">
+		<li>png</li>
+		<li>jpg</li>
+		<li>gif</li>
+		<li>svg</li>
+		<li>webp</li>
+	</ol>
+
+	<h2>HTML Links</h2>
+	<h4>Absolute Link</h4>
+
+	<!-- a -> Creates a hyperlink element that redirects to different page. -->
+
+	<a href="https://zuitt.co" target="_blank">I am a hyperlink</a>
+
+
+
+	<!-- Will redirect to link page using relative link -->
+	<h4>Relative Link</h4>
+	<p>Go to <a href="./link.html">Link.html</a> page.</p>
+
+	<!-- Redirects to the HTML element with the "top" id attribute -->
+	<!-- Accessing id value requires "#" -->
+	<p>Go to <a href="#top">TOP</a> page.</p>
+
+	<p>GO to <a href="./images/index.html">Images/Index.html</a></p>
+
+</body>
+</html>

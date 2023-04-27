@@ -1,0 +1,195 @@
+#div-1{
+	background-color: green;
+	display: inline;
+
+/*	By defualt div has display: block;*/
+}
+
+#span-1{
+	background-color: purple;
+/*	By defualt span and has display: inline;*/
+/*	height and width properties will not work with display:inline;*/
+	display: none;
+	width: 200px;
+	height: 200px;
+}
+
+#div-2{
+	background-color: red;
+	display: none;
+}
+
+#span-2{
+	background-color: hotpink;
+	display: block;
+}
+
+#img{
+/*	By default img has dispay: inline-block	*/
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+#p-1{
+	/*	Hex Color Code*/
+	background-color: #87CEFA;
+}
+
+#p-2{
+	/*	RGB Color value*/
+	background-color: rgb(255, 105, 180);
+	width: 60%;
+}
+
+#p-3{
+	background-color: yellow;
+	width: 40%;
+}
+
+.sample{
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+/* Float Property */
+.img-float{
+	width: 250px;
+	height: 250px;
+	/*	We can try these values: inherit, left, right */
+	float: right;
+}
+
+.box{
+	background-color: green;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.fifty-percent{
+	width: 50%;
+
+}
+
+.one-hundred-pixels{
+	width: 100px;
+
+}
+
+.parent{
+	width: 135px;
+	border: 2px solid navy;
+	font-size: 30px;
+}
+
+.fifty-vw{
+	width: 50vw;
+}
+
+.twenty-five-vh{
+	height: 25vh;
+}
+
+.one-rem{
+	font-size: 1rem;
+}
+
+.one-em{
+	font-size: 1em;
+}
+
+.two-rem{
+	font-size: 2rem;
+}
+
+.two-em{
+	font-size: 2em;
+}
+
+.two-hundred-percent{
+	font-size: 200%;
+}
+
+.background{
+	min-height: 100vh;
+	background-color: gray;
+	background-image: url("https://cutewallpaper.org/22/your-name-aesthetic-desktop-wallpapers/2954230375.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	background-attachment: scroll;
+}
+
+.bg-title{
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	line-height: 10em;
+}
+
+.container-bg{
+	background-color: rgba(0 ,0 , 0, 0.5);
+	min-height: auto;
+}
+
+.parent-element{
+	background-color: skyblue;
+	padding: 10px;
+	position: relative;
+	height: 200vh;
+}
+
+.child-one{
+	background-color: gray;
+	padding: 10px;
+}
+
+.child-two{
+	background-color: yellow;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.child-three{
+	background-color: gray;
+	padding: 10px;
+}
+
+.container{
+	position: relative;
+}
+
+.black-box{
+	position: relative;
+	background-color: gray;
+	z-index: 1;
+	border: 2px solid black;
+	height: 100px;
+	margin: 30px;
+}
+
+.gray-box{
+	position: absolute;
+	background-color: lightgray;
+	z-index:2;
+	border: 2px solid black;
+	height: 60px;
+	width: 70%;
+	left: 50px;
+	top: 50px;
+}
+
+.green-box{
+	position: absolute;
+	background-color: lightgreen;
+	z-index: 3;
+	border: 2px solid black;
+	height: 100px;
+	width: 35%;
+	left: 270px;
+	top: -15px;
+}

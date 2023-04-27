@@ -1,0 +1,144 @@
+/* CSS Reset */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+nav{
+	/* shorthand property */
+    /* 0.8rem = 12.8px */
+	padding: 0.8rem;
+
+	/*	padding-top: 0.8rem;
+	padding-left: 2rem;
+	padding-right: 0.8rem;
+	padding-bottom: 0.8;*/
+
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+
+	/* margin vs padding */
+	/* margin is best used when creating space between elements */
+	/* padding is best used when creating space between elements border and it's content */
+
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	/* changes elements to inline elements	*/
+	/* "display" property has default value -> block*/
+	display: inline;
+}
+
+    /* intro section */
+
+#intro{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+
+	/* shorthand property for padding */
+	/* sequence -> TLRB */
+
+	/* padding: 2rem 10% 10% 3rem;*/
+
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+#intro h2, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button{
+	color: white;
+	/*	changes the thickness of text*/
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+/* succeed info section */
+
+#succeed-info{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+
+}
+
+#succeed-info h2{
+	margin-bottom: 2rem;
+}
+
+#succeed-info h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card{
+	/* allows the cards to apper beside each other	*/
+	display: inline-block;
+	/* aligns elements with the tallest in line	*/
+	vertical-align: top;
+	min-height: 175px;
+	width: 30%;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.card p{
+	text-align: justify;
+}
+
+#pre-footer{
+	background-color: #1e2646;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#pre-footer h3{
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+#pre-footer p{
+	color: white;
+	margin-bottom: 0.5rem;
+	text-align: justify;
+}
+
+#pre-footer div{
+	display: inline-block;
+	vertical-align: top;
+	min-height: auto;
+	width: 20%;
+}
+
+
+
+footer{
+	padding: 0.7rem;
+	text-align: center;
+
+}
+
+footer span{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}

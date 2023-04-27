@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Styling Properties and Position</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+
+		<div class="parent-element">
+        Parent Element
+            <div class="child-one">
+                I'm the child one element.
+            </div>
+            
+            <div class="child-two">
+                All eyes on me. I am the child two element.
+            </div>
+            
+            <div class="child-three">
+                I'm the child three element.
+            </div>
+        </div>
+
+
+	<h2>CSS Common Styling</h2>
+
+	<div id="div-1">This is a div</div>
+		<span id="span-1">This is a span</span>
+		<img src="https://place-puppy.com/450x450" id="img">
+		<span id="span-2">This is another span</span>
+	<div id="div-2">This is another div</div>
+
+	<!-- By defualt div has display: block; -->
+	<!-- By defualt span and has display: inline; -->
+
+	<h3>Notes in block, inline and inline-block</h3>
+
+    <p id="p-1">Block takes up the whole width by default</p>
+    <p id="p-2">width 60</p>
+    <p id="p-3">width 40</p>
+    <p>Even if there is enough space, block elements do not sit next to each other unless if they are floated.</p>
+
+    <p>Inline elements are things like bold and Italics. You cannot control the height and width of these elements.</p>
+
+    <p>Inline-block can sit on the same line and combines block and inline properties</p>
+
+    <div class="sample">width = 30</div>
+    <div class="sample">width = 30</div>
+    <div class="sample">width = 30</div>
+
+    <hr>
+
+	<h3>Float</h3>
+	<p>
+	The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+	</p>
+
+	<p>
+   	<img src="https://place-puppy.com/450x450" class="img-float">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, exercitationem eveniet pariatur impedit. Architecto quasi itaque, accusantium tenetur. Incidunt, aperiam, reprehenderit. Repudiandae, culpa eos nulla odio. Odio perferendis, accusamus ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis inventore numquam quia, accusantium modi, voluptate assumenda architecto, dicta laboriosam sit sequi perspiciatis quo ab soluta consequuntur, incidunt totam. Tempore, perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Incidunt amet asperiores omnis architecto delectus dolorum, temporibus cumque optio, quidem. Praesentium eum, qui vel dolorem fugit nemo, consectetur necessitatibus. Sapiente, doloremque?
+	</p>
+
+	<hr>
+
+        <h3>CSS Units</h3>
+
+        <h4>px vs %</h4>
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred-pixels">100px</div>
+
+        <br>
+
+        <div class="parent">
+            <div class="box fifty-percent">50%</div>
+            <div class="box one-hundred-pixels">100px</div>
+        </div>
+
+	<!-- vw -> viewport's width | vh -> viewport's height-->
+	<div class="box fifty-vw">50vw</div>
+	<div class="box twenty-five-vh">25vh</div>
+
+	<div class="parent">
+        <div class="box fifty-vw">50vw</div>
+        <div class="box twenty-five-vh">25vh</div>
+	</div>
+
+	<div>16px</div>
+	<div class="one-rem">1rem</div>
+	<div class="one-em">1em</div>
+	<div class="two-rem">2rem</div>
+	<div class="two-em">2em</div>
+
+	<div class="parent">
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+	</div>
+
+	<div class="two-hundred-percent">200%</div>
+
+	<div class="parent">
+
+    <div class="two-em">2em</div>
+    <div class="two-hundred-percent">200%</div>
+        
+	</div>
+
+<hr>
+
+<section class="background">
+	<div class="container-bg">
+			<h3 class="bg-title">CSS Background Properties</h3>
+	</div>
+
+</section>
+
+
+<hr>
+
+    <h2>Z-index Example</h2>
+
+    <p>An element with greater stack order is always above an element with a lower stack order.</p>
+
+    <div class="container">
+        <div class="black-box">Black box (z-index: 1)</div>
+        <div class="gray-box">Gray box (z-index: 3)</div>
+        <div class="green-box">Green box (z-index: 2)</div>
+    </div>
+
+
+
+
+
+</body>
+</html>

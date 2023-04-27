@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Table and Form</title>
+</head>
+<body>
+
+	<header>
+		<h1>HTML Tables and forms</h1>
+	</header>
+
+	<main>
+		
+		<section>
+			<h2>HTML Entities</h2>
+			<p><em>Reserved Character in HTML (e.g. &lt; or &gt; character that mix up with HTML code).</em></p>
+		</section>
+
+		<!-- Defines HTML Table -->
+		<table border="2">
+			<!-- Use to group table Header Content -->
+			<thead>
+				<!-- Defines table row -->
+				<tr>
+					<!-- Defines table header -->
+					<th colspan="2">Entity</th>
+					<th>Descriptions</th>
+				</tr>
+				
+			</thead>
+
+			<!-- Use to group table Body Content -->
+			<tbody>
+				<tr>
+					<!-- Defines Table elements -->
+					<td>&lt;</td>
+					<td>lt</td>
+					<td>Less Than</td>
+				</tr>	
+				<tr>
+					<td>&gt;</td>
+					<td>gt</td>
+					<td>Greater Than</td>
+				</tr>
+				<tr>
+					<td>&#8369;</td>
+					<td>#8369</td>
+					<td>Peso Sign</td>
+				</tr>
+				<tr>
+					<td>&amp;</td>
+					<td>amp</td>
+					<td>Ampersand</td>
+				</tr>
+				<tr>
+					<td>&quot;</td>
+					<td>quot</td>
+					<td>Double Quotation Mark</td>
+				</tr>
+				<tr>
+					<td>&apos;</td>
+					<td>apos</td>
+					<td>Single Quotation Mark (apistophe)</td>
+				</tr>
+				<tr>
+					<td>&ntilde;</td>
+					<td>ntilde</td>
+					<td>Lower Tilde</td>
+				</tr>
+				<tr>
+					<td>&Ntilde;</td>
+					<td>Ntilde</td>
+					<td>Upper Tilde</td>
+				</tr>
+
+			</tbody>
+			<!-- Used to group Table Footer Content -->
+			<tfoot>
+				<tr>
+					<th colspan="3">List of HTML Entities</th>
+				</tr>
+
+			</tfoot>
+
+		</table>
+		<section>
+
+			<h2>HTML Forms</h2>
+			<p><em>Input elements that make up Form.</em></p>
+
+			<!-- Creates an HTML form to capture user input -->
+			<form action="https://google.com">
+
+				<!-- Creates a label and allows for input field selection when clicked -->
+				<label for="full_name">Full Name:</label><br>
+				<!-- Creates an input field to capture user input -->
+					<input type="text" name="Full_name" id="full_name" required><br>
+
+				<label for="birth_date">Birt Date:</label><br>
+					<input type="date" name="birth_date" id="birth_date" required><br>
+
+				<label for="age">Age:</label><br>
+					<input type="number" name="age" id="age" required><br>
+
+				<label for="gender">Gender:</label><br>
+				<!-- Greates a dropdown selection -->
+					<select name="gender" id="gender">
+					<!-- Creates an options for the dropdown menu -->
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select><br>
+
+				<label for="notes">Notes:</label><br>
+					<!-- Creates larger Input Area -->
+					<textarea name="notes" id="notes" rows="8"></textarea><br>
+
+				<!-- Radio Button -->
+				<label>New User:</label><br>
+					<input type="radio" name="new_user" id="user_type1" value="yes">
+				<label for="user_type1">Yes</label><br>
+					<input type="radio" name="new_user" id="user_type2" value="no">
+				<label for="user_type2">No</label><br>
+
+				<!-- Checkboxes -->
+				<label>Role:</label><br>
+
+				<!-- Creates checkboxes for multiple choices -->
+					<input type="checkbox" name="role1" id="role1" value="developer">
+				<label for="role1">Developer</label><br>
+					<input type="checkbox" name="role2" id="role2" value="student">
+				<label for="role2">Student</label><br>
+					<input type="checkbox" name="role3" id="role3" value="manager">
+				<label for="role3">Manager</label><br><br>
+
+					<!-- Creates a button that will submit the form data -->
+					<button type="submit">Submit:</button><br>
+					<!-- Creates a button to reset the form -->
+					<button type="reset">Reset</button><br>
+
+			</form>
+
+		</section>
+
+
+	</main>
+</body>
+
+</html>

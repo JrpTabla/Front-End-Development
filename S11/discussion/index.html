@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link rel="stylesheet" type="text/css" href="./index.css"> -->
+		<title>CSS and Bootstrap Flex</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	</head>
+
+
+	<body>
+
+		<div class="container-fluid text-center">
+
+			<h1>Bootstrap Flex</h1>
+			<p>Use the d-flex class to create a flex container and transform direct children into flex items.</p>
+
+
+			<h2>Centering Elements</h2>
+			<div style="height: 500px;" class="bg-secondary p-3 d-flex  align-items-center justify-content-center flex-column-reverse">
+				<div class="h-25 p-3 bg-success">Flex Item A</div>
+				<div class="h-25 p-3 bg-warning">Flex Item B</div>
+				<div class="h-25 p-3 bg-danger">Flex Item C</div>
+			</div>
+
+
+
+			<h2>Flex Row</h2>
+			<div class="bg-dark p-3 d-flex flex-row ">
+				<div class="p-3 bg-success">Flex Item A</div>
+				<div class="p-3 bg-warning">Flex Item B</div>
+				<div class="p-3 bg-danger">Flex Item C</div>
+			</div>
+
+			<!-- The "flex-row" and "flex-row-reverse" classes may only be applied if the element has a "flex" value for it's "display" property. -->
+
+
+			<h2>Flew Row</h2>
+			<div class="bg-dark p-3 d-flex flex-row-reverse ">
+				<div class="p-3 bg-success">Flex Item A</div>
+				<div class="p-3 bg-warning">Flex Item B</div>
+				<div class="p-3 bg-danger">Flex Item C</div>
+			</div>
+
+			<!-- The CSS "flex-row" and "flex-row-reverse" classes changes how the elements are displayed horizontally. -->
+
+			<h2>Creating Space Between Elemts</h2>
+			<div class="bg-dark p-3 d-md-flex justify-content-around ">
+				<div class="p-3 bg-success col-md-2">Card A</div>
+				<div class="p-3 bg-warning col-md-2">Card B</div>
+				<div class="p-3 bg-danger col-md-2"> Card C</div>
+			</div>
+
+			<!-- The "d-md-flex" class will apply a "flex" value to the "display" property on a "medium" sized screen and larger. -->
+
+			<!-- On smaller screens flex will not be applied to the parent element making it so elements will stack on top of each other. -->
+
+			<!-- The "col-md-2" will change the width of the child elements to occupy 2 out of 12 columns of it's parent container on medium screens and larger but will occupy the full width on mobile phones. -->
+
+			<!-- This approach is good for displaying elements side by side on tablets and larger screents but stacked on top of each other on small screens. -->
+
+			<!-- The "justify-content-around" class may only be applied if the element has a "flex" value for it's "display" property. -->
+
+			<!-- The "justify-content-around" class centers elements horizontally while creating space between elements and the borders of it's parent container. -->
+
+			<h2>Flexbox With Margin</h2>
+			<div class="bg-dark p-3 d-flex">
+				<div class="p-3 bg-success mr-auto">Card A</div>
+				<div class="p-3 bg-warning">Card B</div>
+				<div class="p-3 bg-danger"> Card C</div>
+				<div class="p-3 bg-primary"> Card D</div>
+			</div>
+
+			<!-- The "mr-auto" class will occupy the remaining width of it's parent container pushing all other elements inline. -->
+
+			<h2>Nested Flex Elements</h2>
+			<div class="bg-dark p-3 d-block d-md-flex">
+				<div class="p-3 bg-success mr-auto">Flex Item A</div>
+				<div class="w-50 d-block d-md-flex justify-content-between">
+					<div class="p-3 bg-warning">Flex Item B</div>
+					<div class="p-3 bg-danger">Flex Item C</div>
+					<div class="p-3 bg-primary">Flex Item D</div>
+				</div>
+			</div>
+
+
+			<!-- The "d-" classes only applies to it's child elements and not to it's grandchild elements. -->
+
+			<!-- This is the reason why multiple "d-flex" classes are needed in order to align elements in nested div tags. -->
+
+			<!-- The combination of "d-block" and "d-md-flex" allows for elements to appear side by side on medium and larger screens and appear on top of each other on smaller screens. -->
+
+			<!-- The "d-block" class changes the "display" property of the "div" tag back to it's original "block" value. -->
+
+			<!-- The combination of the "w-50" and "justify-content-between" allows to create space between the flex items. -->
+
+			<!--  Unlike the "justify-content-around", the "justify-content-between" creates space between elements but removes the padding leftmost and rightmost padding of it's parent element. -->
+
+
+		</div>
+
+	<!-- Bootstrap JS Script -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+	</body>
+
+
+</html>

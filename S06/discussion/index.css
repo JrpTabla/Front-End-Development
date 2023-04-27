@@ -1,0 +1,82 @@
+/* 
+
+CTRL + / for comment ib CSS
+
+CSS Rules -> Syntax
+
+selector {
+	property: value;
+	}
+
+example
+
+h1{
+	color: red;
+	}
+*/
+
+/*Type Selector -> Tag Name*/
+/* !important -> priorities code */
+h1{
+	color: dimgray !important;
+}
+
+/* Universal Selector -> (*) -> all or everthing*/
+
+*{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+}
+
+/* ID Selector -> #id name */
+
+#zuitt-motto{
+	letter-spacing: 10px;
+}
+
+/* Class Selector -> .class-name */
+
+.offering-item{
+	text-transform: uppercase;
+}
+
+/* Attribute Selector -> tagname[attribute]*/
+
+input[required]{
+	border-width: 2px;
+}
+
+/* Adjacent Sibling Selector -> selector + selector*/
+
+h3 + img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+/*
+#zuitt-motto + img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+*/
+
+/* Descendant Selector -> selector selector*/
+
+#bootcamp-learning-list li{
+	color: #075966;
+}
+
+
+/* General Sibling Selector -> seletor ~*/
+
+h2 ~ a {
+	text-decoration: none;
+}
+
+/* Child Seletor -> selector > selector */
+
+body > section > form > label {
+	color: rgb(10, 10, 180);
+}

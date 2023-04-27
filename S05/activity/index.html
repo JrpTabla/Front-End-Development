@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORMS AND TABLE</title>
+</head>
+<body>
+	<header>
+	<h1>Zuitt IT Solutions</h1>
+	<h2>Products Offered</h2>
+	</header>
+
+	<main>
+		<section>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Package</th>
+						<th>Price</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Basic</td>
+						<td>₱500.00</td>
+						<td>Package includes a fully function website with desired specifications.</td>
+					</tr>
+
+					<tr>
+						<td>Premium</td>
+						<td>₱1000.00</td>
+						<td>Enjoy all the benefits of the basic package and also includes site support and maintainance.</td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<th colspan="3">Additional features after initial project is inclusive of charges</th>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+
+		<section>
+			<h2>Contact Form</h2>
+				<form action="https://academia.crandi.com/wp-content/uploads/2018/11/Thank-you-page.jpg">
+					<label for="first_name">First Name:</label><br>
+						<input type="text" name="first_name" id="first_name" required><br>
+
+					<label for="last_name">Last Name:</label><br>
+						<input type="text" name="last_name" id="last_name" required><br>
+
+					<label for="email">Email:</label><br>
+						<input type="email" name="email" id="email" required><br>
+
+					<label for="contact">Contact Number:</label><br>
+						<input type="text" name="contact" id="contact" required><br>
+
+					<label for="service_type">Service Type:</label><br>
+				
+						<select name="front_end" id="front_end">
+						<option value="front_end">Front End Programming</option>
+						<option value="front_end">Back End Programming</option>
+						<option value="front_end">Full stack Programming</option>
+						</select><br>
+
+					<label>Preferred Contact:</label><br>
+
+				
+						<input type="checkbox" name="role1" id="role1" value="developer">
+					<label for="role1">Email</label><br>
+						<input type="checkbox" name="role2" id="role2" value="student">
+					<label for="role2">Phone Package:</label><br>
+
+						<input type="radio" name="new_user" id="user_type1" value="yes">
+					<label for="user_type1">Basic</label><br>
+						<input type="radio" name="new_user" id="user_type2" value="no">
+					<label for="user_type2">Premium</label><br><br>
+
+					<label>Message</label><br>
+
+						<textarea name="notes" id="notes" rows="5"></textarea><br>
+
+
+						<button type="submit">Send Inquiry</button><br>
+						<button type="reset">Reset</button><br>
+				</form>
+		</section>
+	</main>
+</body>
+</html>

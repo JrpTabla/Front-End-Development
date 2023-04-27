@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+nav{
+	background-color: white;
+	position: sticky;
+	padding: 0.8rem;
+	top: 0;
+	border-bottom: 1px solid black;
+	list-style-type: none;
+	z-index: 1;
+}
+
+
+nav .nav, nav .nav-logo, nav .right-nav{
+    margin: 0.5rem;
+    display: inline;
+}
+
+nav .nav-logo{
+	margin-left: 20%;
+}
+nav .right-nav {
+	margin-left: 10%;
+}
+
+.tuitt-button{
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 0.7rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border: none;
+}
+
+#bg-image{	
+	background-image: url('https://lh4.googleusercontent.com/proxy/vnrU_-Gaj4Fnca-KM__paIIzo1H0ROp0LXgT32efgiPjRpAYDYa9Rfyo2pA2ExzGoA7G30i3lSQuUWtz_ga5l6oKq6ANiGSg1T7GeB0FPJPgZHu_wRz8lqPhr_o=w1920-h932');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.front-bg{
+	position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 50vh;
+    main
+}
+
+.title{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 35%;
+	text-align: right;
+	display: block;
+	width: 45%;
+	padding-bottom:1%;
+}
+
+.subtitle{
+	color: white;
+	font-size: 15px;
+	margin-left: 55%;
+	text-align: right;
+	display: block;
+	width: 25%;
+	padding-bottom:1%;
+
+}
+
+.apply-button{
+
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 0.8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border: none;
+	margin-left: 71%;
+}
+
+.intro{
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.title-2 {
+	text-align: center;
+	padding-bottom: 4rem;
+}
+
+.pre-footer{
+	align-items: center;
+	background-color: #e6f4fb;
+	padding-left: 16%;
+	padding-right: 16%;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.prefooter-description{;	
+	padding-right: 5%;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.book-button{
+	color: white;
+	font-weight: bold;
+	background-color: #2a7699;
+	border-radius: 25px;
+	font-size: 0.8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border: none;
+	margin-left: 45%;
+	margin-bottom: 4rem;
+}
+
+footer{
+	padding: 1%;
+	text-align: center;
+}
